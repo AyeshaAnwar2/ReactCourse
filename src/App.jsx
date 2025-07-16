@@ -1,10 +1,14 @@
 import Login,{Profile} from "./UserComponent";
+
 function App(){
+  let x = 20;
+  let y= 30;
 return(
   <div>
   <h1>hello it is first component</h1>
   <p>it is para</p>
   <h2>hlo</h2>
+  <h1>{x+y}</h1>
   <Fruit/>
   <Color/>
   <Sum/>
